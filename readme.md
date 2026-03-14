@@ -12,7 +12,7 @@
 ## 🔥 ROMA's streaming understanding capabilities
 
 <p align="center">
-<img src="assets/teaser.png" width="90%">
+<img src="assets/teaser.png" width="50%">
 </p>
 
 > It supports proactive tasks, including event alerts and narration, alongside reactive question answering.
@@ -56,7 +56,7 @@ ROMA achieves **state-of-the-art performance on proactive streaming tasks** whil
 </p>
 
 <p align="center">
-<img src="assets/narration.png" width="90%">
+<img src="assets/narration.png" width="50%">
 </p>
 
 ### Reactive
@@ -69,7 +69,7 @@ ROMA achieves **state-of-the-art performance on proactive streaming tasks** whil
 </p>
 
 <p align="center">
-<img src="assets/omni.png" width="90%">
+<img src="assets/omni.png" width="50%">
 </p>
 
 ---
