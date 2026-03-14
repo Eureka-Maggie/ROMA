@@ -12,7 +12,14 @@
 ## 🔥 ROMA's streaming understanding capabilities
 
 <p align="center">
-<img src="assets/teaser.png" width="50%">
+    <img src="assets/teaser.png" width="40%">
+    <img src="assets/architecture.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="assets/alert1.png" width="30%">
+  <img src="assets/alert2.png" width="30%">
+  <img src="assets/narration.png" width="30%">
 </p>
 
 > It supports proactive tasks, including event alerts and narration, alongside reactive question answering.
