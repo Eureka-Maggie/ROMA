@@ -9,14 +9,13 @@
 
 ---
 
-## 🔥 Teaser
+## 🔥 ROMA's streaming understanding capabilities
 
 <p align="center">
 <img src="assets/teaser.png" width="90%">
 </p>
 
-> **Figure placeholder**  
-> Replace with the teaser figure from the paper.
+> It supports proactive tasks, including event alerts and narration, alongside reactive question answering.
 
 ---
 
@@ -50,22 +49,36 @@ The model is trained with a **two-stage streaming curriculum** and evaluated on 
 
 ROMA achieves **state-of-the-art performance on proactive streaming tasks** while remaining competitive on traditional reactive QA benchmarks.
 
-| Model | Proactive Alert | Real-Time Narration | Reactive QA |
-|------|----------------|--------------------|------------|
-| VideoLLM-Online | baseline | baseline | baseline |
-| MiniCPM-o-2.6 | competitive | competitive | strong |
-| Qwen2.5-Omni | competitive | competitive | strong |
-| **ROMA (Ours)** | **SOTA** | **SOTA** | **Competitive** |
+### Proactive
+<p align="center">
+  <img src="assets/alert1.png" width="45%">
+  <img src="assets/alert2.png" width="45%">
+</p>
 
-> Replace this table with exact numbers from the paper tables if desired.
+<p align="center">
+<img src="assets/narration.png" width="90%">
+</p>
+
+### Reactive
+<p align="center">
+<img src="assets/streaming.png" width="90%">
+</p>
+
+<p align="center">
+<img src="assets/ovo.png" width="90%">
+</p>
+
+<p align="center">
+<img src="assets/omni.png" width="90%">
+</p>
 
 ---
 
 ## 🧠 Model
 
-| Model | Parameters | Modalities | Capability |
-|------|-----------|-----------|-----------|
-| ROMA | **11B** | Audio + Video + Text | Streaming Multimodal Understanding |
+| Model | Modalities | Capability |
+|------|-----------|-----------|
+| ROMA | Audio + Video + Text | Streaming Multimodal Understanding |
 
 Model weights are available at:
 
