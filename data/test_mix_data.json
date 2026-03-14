@@ -1,0 +1,118 @@
+[
+  {
+    "task": "narration",
+    "id": "KkXybvkdFqo_3",
+    "videos": [
+      [
+        "COIN/images/KkXybvkdFqo/frame_000085.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000086.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000087.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000088.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000089.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000090.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000091.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000092.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000093.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000094.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000095.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000096.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000097.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000098.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000099.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000100.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000101.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000102.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000103.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000104.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000105.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000106.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000107.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000108.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000109.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000110.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000111.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000112.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000113.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000114.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000115.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000116.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000117.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000118.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000119.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000120.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000121.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000122.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000128.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000129.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000130.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000131.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000132.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000133.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000134.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000151.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000152.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000153.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000154.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000155.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000156.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000157.jpg",
+        "COIN/images/KkXybvkdFqo/frame_000158.jpg"
+      ]
+    ],
+    "images": [],
+    "ans": [
+      {
+        "text": "install the light socket",
+        "time": 20.0
+      },
+      {
+        "text": "install the bulb and light housing or shell",
+        "time": 22.5
+      },
+      {
+        "text": "install the bulb and light housing or shell",
+        "time": 26.5
+      }
+    ],
+    "query": [
+      {
+        "text": "<video>Describe the event flow.",
+        "audio": "COIN/tts_audio/S1DWismH1HE.wav",
+        "time": 0.0,
+        "duration": 0.97
+      }
+    ]
+  },
+  {
+    "task": "proactive_gate",
+    "id": "908",
+    "ans": [
+      {
+        "text": "alert",
+        "time": 4.0
+      },
+      {
+        "text": "alert",
+        "time": 5.0
+      },
+      {
+        "text": "alert",
+        "time": 6.0
+      }
+    ],
+    "query": [
+      {
+        "text": "<video>When you see an 'oops' kind of moment, immediately say what happened, anything to watch out for?",
+        "audio": "data/stream/oops/oops/oops_audio_gate/908.wav",
+        "time": 0.0,
+        "duration": 3.91
+      }
+    ],
+    "videos": [
+      [
+        "data/stream/oops/oops/oops_video/val/Throwback Fails - Saved It! (January 2018) _ FailArmy8.mp4"
+      ]
+    ],
+    "images": []
+  }
+]

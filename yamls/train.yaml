@@ -1,0 +1,65 @@
+### model
+model_name_or_path: models/Qwen2.5-Omni-7B 
+image_max_pixels: 262144 #res = 512
+video_max_pixels: 65536 
+trust_remote_code: true
+
+### method
+do_train: true
+stage: sft
+# additional_target: gate_head,gate_mixer
+finetuning_type: full
+
+# finetuning_type: freeze
+# freeze_trainable_layers: 0
+# freeze_trainable_modules: all 
+# freeze_extra_modules: gate_head_pro_fc1,gate_head_pro_fc2,gate_mixer
+
+# finetuning_type: lora
+# lora_rank: 64
+# lora_target: q_proj,k_proj,v_proj,o_proj,up_proj,down_proj,gate_proj
+# additional_target: gate_head_pro_fc1,gate_head_pro_fc2,gate_mixer
+
+
+dataset: abl_all_1,abl_all_2
+buffer_size: 16
+preprocessing_batch_size: 16
+streaming: true
+accelerator_config:
+  dispatch_batches: false
+mix_strategy: interleave
+max_steps: 6000 
+
+template: streaming_mix 
+cutoff_len: 32000
+overwrite_cache: true
+preprocessing_num_workers: 64
+dataloader_num_workers: 64
+
+### output
+output_dir: streaming_results/abl_all
+logging_steps: 5
+save_steps: 1500
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+
+### train
+use_audio_in_video: true
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+gradient_checkpointing: True
+freeze_vision_tower: true
+learning_rate: 1.0e-5
+num_train_epochs: 1
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+#fp16: true
+ddp_timeout: 180000000
+deepspeed: examples/deepspeed/ds_z3_config.json 
+resume_from_checkpoint: null
+#save_strategy: "epoch" 
+flash_attn: fa2
+enable_liger_kernel: true
+use_unsloth_gc : true

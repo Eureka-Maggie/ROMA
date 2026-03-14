@@ -1,0 +1,18 @@
+[{
+    "video_path": "videomme/30s_seg/uoJDGnaVuTg_290.mp4",
+    "questions": [
+      {
+        "question": "How does the right one become at the end?",
+        "answer": "A",
+        "options": [
+          "(A) Small.",
+          "(B) Big.",
+          "(C) Slim.",
+          "(D) Fat."
+        ],
+        "audio_path": "videomme/audios/290.wav",
+        "ground_truth": "Small."
+      }
+    ]
+  }
+]
