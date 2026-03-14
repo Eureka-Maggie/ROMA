@@ -16,11 +16,6 @@
     <img src="assets/architecture.png" width="65%">
 </p>
 
-<p align="center">
-  <img src="assets/alert1.png" width="30%">
-  <img src="assets/alert2.png" width="30%">
-  <img src="assets/narration.png" width="30%">
-</p>
 
 > It supports proactive tasks, including event alerts and narration, alongside reactive question answering.
 
@@ -58,8 +53,8 @@ ROMA achieves **state-of-the-art performance on proactive streaming tasks** whil
 
 ### Proactive
 <p align="center">
-  <img src="assets/alert1.png" width="30%">
-  <img src="assets/alert2.png" width="30%">
+  <img src="assets/alert1.png" width="33%">
+  <img src="assets/alert2.png" width="33%">
   <img src="assets/narration.png" width="30%">
 </p>
 
