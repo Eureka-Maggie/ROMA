@@ -51,13 +51,11 @@ ROMA achieves **state-of-the-art performance on proactive streaming tasks** whil
 
 ### Proactive
 <p align="center">
-  <img src="assets/alert1.png" width="45%">
-  <img src="assets/alert2.png" width="45%">
+  <img src="assets/alert1.png" width="30%">
+  <img src="assets/alert2.png" width="30%">
+  <img src="assets/narration.png" width="30%">
 </p>
 
-<p align="center">
-<img src="assets/narration.png" width="50%">
-</p>
 
 ### Reactive
 <p align="center">
@@ -69,7 +67,7 @@ ROMA achieves **state-of-the-art performance on proactive streaming tasks** whil
 </p>
 
 <p align="center">
-<img src="assets/omni.png" width="50%">
+<img src="assets/omni.png" width="45%">
 </p>
 
 ---
