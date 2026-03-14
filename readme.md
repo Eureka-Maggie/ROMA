@@ -66,6 +66,7 @@ ROMA achieves **state-of-the-art performance on proactive streaming tasks** whil
 <img src="assets/ovo.png" width="90%">
 </p>
 
+### Omni-Modal Reactive
 <p align="center">
 <img src="assets/omni.png" width="45%">
 </p>
