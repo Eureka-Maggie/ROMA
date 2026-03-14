@@ -12,8 +12,8 @@
 ## 🔥 ROMA's streaming understanding capabilities
 
 <p align="center">
-    <img src="assets/teaser.png" width="25%">
-    <img src="assets/architecture.png" width="70%">
+    <img src="assets/teaser.png" width="30%">
+    <img src="assets/architecture.png" width="65%">
 </p>
 
 <p align="center">
